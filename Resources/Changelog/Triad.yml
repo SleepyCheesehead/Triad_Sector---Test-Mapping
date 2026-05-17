@@ -682,3 +682,10 @@ Entries:
   id: 2204
   time: '2026-05-17T06:22:49.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/89
+- author: Erol509
+  changes:
+    - type: Add
+      message: Added several new synthetic lizard related markings to IPC
+  id: 2205
+  time: '2026-05-17T06:24:11.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/80

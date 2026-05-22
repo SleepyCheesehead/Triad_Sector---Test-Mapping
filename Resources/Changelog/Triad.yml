@@ -789,3 +789,10 @@ Entries:
   id: 2215
   time: '2026-05-22T11:31:54.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/106
+- author: dijonmustard01
+  changes:
+    - type: Add
+      message: Added "FitsInMedicalStash" tag to tourniquets
+  id: 2216
+  time: '2026-05-22T11:43:08.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/110

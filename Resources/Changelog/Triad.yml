@@ -852,3 +852,14 @@ Entries:
   id: 2222
   time: '2026-05-24T06:54:24.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/114
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: Hydrakin no longer get a toxin warning when breathing plasma or tritium.
+    - type: Fix
+      message: >-
+        Hydrakin no longer take radiation damage from inhaling tritium.
+        Injecting it still hurts.
+  id: 2223
+  time: '2026-05-24T10:36:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/119

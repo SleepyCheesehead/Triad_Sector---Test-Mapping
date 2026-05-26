@@ -961,3 +961,10 @@ Entries:
   id: 2232
   time: '2026-05-26T14:53:24.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/116
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: LPB pinpointers can no longer be saved in stash
+  id: 2233
+  time: '2026-05-26T15:04:53.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/135

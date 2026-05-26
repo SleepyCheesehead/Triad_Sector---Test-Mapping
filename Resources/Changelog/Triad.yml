@@ -968,3 +968,10 @@ Entries:
   id: 2233
   time: '2026-05-26T15:04:53.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/135
+- author: Shy-ivy
+  changes:
+    - type: Add
+      message: Collars can now be engraved, they don't give any tactical advantage
+  id: 2234
+  time: '2026-05-26T15:16:25.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/120

@@ -1021,3 +1021,10 @@ Entries:
   id: 2240
   time: '2026-05-30T17:15:06.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/160
+- author: IngvarJackal
+  changes:
+    - type: Fix
+      message: ongoing tasks in lathes don't break ship saving any more
+  id: 2241
+  time: '2026-05-30T17:18:35.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/154

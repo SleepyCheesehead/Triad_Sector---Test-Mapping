@@ -1291,3 +1291,21 @@ Entries:
   id: 2269
   time: '2026-06-07T22:31:00.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/178
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        The Rapid Piping Device now has a built-in scanner that reveals
+        atmospheric pipes under flooring while you hold it.
+    - type: Add
+      message: >-
+        The RPD can now deconstruct pipes hidden beneath floor tiles, under
+        firelocks, and on a specific pipe layer chosen by aiming your cursor
+        within the tile.
+    - type: Tweak
+      message: The Rapid Piping Device is now backpack-sized and fits in STASHES!
+    - type: Fix
+      message: Ungoofed the inventory sprite
+  id: 2270
+  time: '2026-06-07T22:35:09.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/187

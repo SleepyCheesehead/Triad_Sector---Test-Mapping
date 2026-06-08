@@ -1336,3 +1336,14 @@ Entries:
   id: 2273
   time: '2026-06-08T23:56:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/193
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        56 new bartender cocktails are now mixable. Old Fashioned, Jaegerbomb,
+        Dark Oasis, Dragon's Breath, Prairie Oyster, and many more.
+    - type: Add
+      message: Angobitters and jaegermister bottles are now stocked in the booze-o-mat.
+  id: 2274
+  time: '2026-06-08T23:56:41.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/189

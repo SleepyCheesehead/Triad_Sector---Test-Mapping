@@ -1374,3 +1374,10 @@ Entries:
   id: 2277
   time: '2026-06-09T00:02:20.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/156
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Try to fix the ghost role bug so it doesn't bother people anymore.
+  id: 2278
+  time: '2026-06-09T00:46:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/195

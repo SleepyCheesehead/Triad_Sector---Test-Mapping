@@ -29,6 +29,7 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Random;
 using Content.Server._NF.Atmos.Components; // Frontier
+using Timer = Robust.Shared.Timing.Timer; // Triad
 
 namespace Content.Server.Atmos.EntitySystems
 {
@@ -396,9 +397,13 @@ namespace Content.Server.Atmos.EntitySystems
             // goob edit - stunmeta
             _stunSystem.TryKnockdown(uid, TimeSpan.FromSeconds(2f), true);
 
-            // TODO FLAMMABLE: Make this not use TimerComponent...
-            uid.SpawnTimer(2000, () =>
+            // TODO FLAMMABLE: migrate to timestamp fields like upstream #43320 (engine v275 removed TimerComponent)
+            // Triad: static Timer outlives the entity, guard deletion to keep old TimerComponent semantics
+            Timer.Spawn(2000, () =>
             {
+                if (Deleted(uid))
+                    return;
+
                 flammable.Resisting = false;
                 flammable.FireStacks -= 1f;
                 UpdateAppearance(uid, flammable);

@@ -1426,3 +1426,10 @@ Entries:
   id: 2282
   time: '2026-06-10T15:29:25.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/203
+- author: IrkallaEpsilon
+  changes:
+    - type: Fix
+      message: M90 wield bonus now works properly
+  id: 2283
+  time: '2026-06-10T23:38:44.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/207

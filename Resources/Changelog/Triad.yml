@@ -1440,3 +1440,14 @@ Entries:
   id: 2284
   time: '2026-06-11T22:17:35.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/210
+- author: Wuffindy
+  changes:
+    - type: Add
+      message: high sec medical airlock (mapping purposes)
+    - type: Tweak
+      message: both ATU Tacsuit is now a saving contraband
+    - type: Tweak
+      message: Medical armory access adjusted to be accessible by ER
+  id: 2285
+  time: '2026-06-11T22:21:15.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/209

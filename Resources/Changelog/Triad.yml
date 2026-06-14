@@ -1534,3 +1534,22 @@ Entries:
   id: 2294
   time: '2026-06-14T02:36:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/220
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        Character traits are now grouped into categories (Physical, Medical,
+        Mental, Disabilities, Accents, Languages), each with its own limits, on
+        top of an overall trait-point budget. Negative-cost traits grant extra
+        points to spend.
+    - type: Tweak
+      message: >-
+        The Traits menu now opens with categories collapsed and supports
+        searching.
+    - type: Tweak
+      message: >-
+        Existing trait selections have been reset as part of the trait rework;
+        please reselect your traits.
+  id: 2295
+  time: '2026-06-14T03:53:57.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/179

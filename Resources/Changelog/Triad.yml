@@ -1560,3 +1560,14 @@ Entries:
   id: 2296
   time: '2026-06-14T05:25:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/223
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        An estimated appraisal of your ship will be displayed when you select a
+        saved ship in the shipyard console. This value will not be visible if
+        your ship was saved pre-tamper update. Resaving your ship will fix this,
+        however.
+  id: 2297
+  time: '2026-06-14T13:28:39.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/222

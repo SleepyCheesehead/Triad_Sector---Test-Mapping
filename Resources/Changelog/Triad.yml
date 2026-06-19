@@ -1657,3 +1657,18 @@ Entries:
   id: 2307
   time: '2026-06-16T03:00:19.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/176
+- author: SquishyEmmaaaa
+  changes:
+    - type: Add
+      message: In-hand sprites for various liquors and snacks.
+    - type: Add
+      message: Spacepresso machines for your ship lounges.
+    - type: Add
+      message: >-
+        New reagent: Caramexinin! Now your fluffy friends can have a coffee
+        spiked with this safely, as a treat.
+    - type: Tweak
+      message: Booze-o-Mats now get pineapple juice cartons.
+  id: 2308
+  time: '2026-06-19T07:07:27.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/230

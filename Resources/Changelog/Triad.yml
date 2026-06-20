@@ -1783,3 +1783,30 @@ Entries:
   id: 2316
   time: '2026-06-20T08:17:28.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/229
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: Singularity and tesla no longer slide on friction incorrectly.
+    - type: Fix
+      message: Gas tanks now disconnect when dropped or stored during their cooldown.
+    - type: Fix
+      message: Closed entity storage no longer traps gas before it is map-initialized.
+    - type: Fix
+      message: Closed the shoot-from-inside-a-morgue exploit.
+    - type: Fix
+      message: Powered devices no longer report as powered while drawing zero load.
+    - type: Fix
+      message: Lightning beams now rotate correctly.
+    - type: Fix
+      message: Damage visuals now show on walls.
+    - type: Fix
+      message: The round-end summary window no longer needs two presses to toggle.
+    - type: Fix
+      message: Fixed a mispredict when using tools on the recycler.
+    - type: Tweak
+      message: Storage occupancy is dramatically faster.
+    - type: Tweak
+      message: Ship AI / HTN piloting fixes and upgrades.
+  id: 2317
+  time: '2026-06-20T08:55:08.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/217

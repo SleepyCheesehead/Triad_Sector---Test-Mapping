@@ -1810,3 +1810,16 @@ Entries:
   id: 2317
   time: '2026-06-20T08:55:08.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/217
+- author: Wuffindy
+  changes:
+    - type: Add
+      message: Added Craftable extended pistol magazines for 9x19mm, 45 ACP, 45 Magnum
+    - type: Tweak
+      message: Renamed all Machine Pistol Magazines to Extended Pistol Magazines
+    - type: Tweak
+      message: Extended Mag .45 Magnum capacity 14 < 16
+    - type: Tweak
+      message: Extended Mag 9x19mm capacity 31 < 34
+  id: 2318
+  time: '2026-06-20T14:54:07.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/224

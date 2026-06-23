@@ -1892,3 +1892,12 @@ Entries:
   id: 2324
   time: '2026-06-23T01:34:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/247
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: >-
+        Optimized NPC ship steering for better server performance with large
+        fleets.
+  id: 2325
+  time: '2026-06-23T07:01:07.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/251

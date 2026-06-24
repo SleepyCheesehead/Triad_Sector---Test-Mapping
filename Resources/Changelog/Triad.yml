@@ -1939,3 +1939,13 @@ Entries:
   id: 2329
   time: '2026-06-23T16:25:03.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/255
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Radiation Sources not updating to their parent grids. You should
+        no longer experience patches of radiation, or radiation coming from your
+        generators being non-existent.
+  id: 2330
+  time: '2026-06-24T01:41:27.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/257

@@ -1986,3 +1986,10 @@ Entries:
   id: 2334
   time: '2026-06-25T21:27:14.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/260
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Fix engine again to 277.2.1
+  id: 2335
+  time: '2026-06-25T22:04:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/265

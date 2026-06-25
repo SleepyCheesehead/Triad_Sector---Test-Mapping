@@ -1979,3 +1979,10 @@ Entries:
   id: 2333
   time: '2026-06-25T21:22:28.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/264
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Comas and apostrophes can now be used in character names
+  id: 2334
+  time: '2026-06-25T21:27:14.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/260

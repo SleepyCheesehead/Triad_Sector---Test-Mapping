@@ -2002,3 +2002,10 @@ Entries:
   id: 2336
   time: '2026-06-27T08:53:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/268
+- author: Stedar111
+  changes:
+    - type: Add
+      message: Added HZD Stiletto, a researchable handgun!
+  id: 2337
+  time: '2026-06-27T09:28:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/233

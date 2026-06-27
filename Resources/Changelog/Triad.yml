@@ -1993,3 +1993,12 @@ Entries:
   id: 2335
   time: '2026-06-25T22:04:30.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/265
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: >-
+        Few ambient that ends abruptly or unnaturally has been edited to have
+        smoother fade out ending
+  id: 2336
+  time: '2026-06-27T08:53:26.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/268

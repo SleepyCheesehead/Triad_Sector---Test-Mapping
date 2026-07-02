@@ -2059,3 +2059,10 @@ Entries:
   id: 2343
   time: '2026-07-01T12:14:01.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/275
+- author: DDrakov
+  changes:
+    - type: Tweak
+      message: Ingame rules
+  id: 2344
+  time: '2026-07-02T12:40:44.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/270

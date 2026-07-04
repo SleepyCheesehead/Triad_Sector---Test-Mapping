@@ -2084,3 +2084,14 @@ Entries:
   id: 2346
   time: '2026-07-04T06:13:24.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/281
+- author: Stedar111
+  changes:
+    - type: Tweak
+      message: Nerfed the Squire to incentivize unfolding it.
+    - type: Fix
+      message: >-
+        Fixed the toggle verb for the Squire and Stiletto displaying the
+        opposite name.
+  id: 2347
+  time: '2026-07-04T06:13:42.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/279

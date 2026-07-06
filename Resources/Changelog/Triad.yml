@@ -2137,3 +2137,14 @@ Entries:
   id: 2352
   time: '2026-07-06T22:08:00.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/290
+- author: Dimasw99
+  changes:
+    - type: Tweak
+      message: >-
+        Asteroids now have their own unique gas deposits with specific gas
+        ratios for each type.
+    - type: Tweak
+      message: Significantly increased the amount of moles per asteroid on average.
+  id: 2353
+  time: '2026-07-06T22:08:22.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/261

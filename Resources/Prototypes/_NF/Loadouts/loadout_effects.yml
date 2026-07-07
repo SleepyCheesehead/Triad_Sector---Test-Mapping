@@ -31,6 +31,14 @@
     - Yowie # Goob
     - Tajaran # Goob
     - Hydrakin # Mono
+    - Avali # Triad
+
+- type: loadoutEffectGroup
+  id: WaterBreatherNF
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Feroxi # Triad
 
 - type: loadoutEffectGroup
   id: ShoesCapableNF
@@ -57,6 +65,8 @@
     - Tajaran # Goob
     - Diona # Mono
     - Hydrakin # Mono
+    - Avali #TRIAD
+    - Feroxi #TRIAD
 
 - type: loadoutEffectGroup
   id: NFNotDocOrStc

@@ -236,6 +236,10 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.FocusChat);
             AddButton(ContentKeyFunctions.FocusLocalChat);
             AddButton(ContentKeyFunctions.FocusEmote);
+            // Floofstation section
+            AddButton(ContentKeyFunctions.FocusSubtle);
+            AddButton(ContentKeyFunctions.FocusSubtleOOC);
+            // Floofstation section end
             AddButton(ContentKeyFunctions.FocusWhisperChat);
             AddButton(ContentKeyFunctions.FocusRadio);
             AddButton(ContentKeyFunctions.FocusLOOC);
@@ -250,7 +254,6 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.OpenGuidebook);
             AddButton(ContentKeyFunctions.OpenInventoryMenu);
             AddButton(ContentKeyFunctions.OpenLanguageMenu); // Einstein Engines - Language
-            AddButton(ContentKeyFunctions.OpenConsentWindow); // Floofstation
             AddButton(ContentKeyFunctions.OpenAHelp);
             AddButton(ContentKeyFunctions.OpenActionsMenu);
             AddButton(ContentKeyFunctions.OpenEmotesMenu);
@@ -259,6 +262,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.OpenSandboxWindow);
             AddButton(ContentKeyFunctions.OpenTileSpawnWindow);
             AddButton(ContentKeyFunctions.OpenDecalSpawnWindow);
+            AddButton(ContentKeyFunctions.OpenConsentWindow); // Floofstation
             AddButton(ContentKeyFunctions.OpenAdminMenu);
             AddButton(EngineKeyFunctions.WindowCloseAll);
             AddButton(EngineKeyFunctions.WindowCloseRecent);

@@ -85,11 +85,11 @@ public sealed partial class ChatUIController : UIController
         {SharedChatSystem.EmotesPrefix, ChatSelectChannel.Emotes},
         {SharedChatSystem.EmotesAltPrefix, ChatSelectChannel.Emotes},
         {SharedChatSystem.SubtlePrefix, ChatSelectChannel.Subtle}, // Floofstation
-        {SharedChatSystem.SubtleOOCPrefix, ChatSelectChannel.SubtleOOC}, // Den
+        {SharedChatSystem.SubtleOOCPrefix, ChatSelectChannel.SubtleOOC}, // Floofstation
         {SharedChatSystem.AdminPrefix, ChatSelectChannel.Admin},
         {SharedChatSystem.RadioCommonPrefix, ChatSelectChannel.Radio},
         {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead},
-        {SharedChatSystem.CollectiveMindPrefix, ChatSelectChannel.CollectiveMind}
+        {SharedChatSystem.CollectiveMindPrefix, ChatSelectChannel.CollectiveMind} // Goobstation - Starlight collective mind port
     };
 
     public static readonly Dictionary<ChatSelectChannel, char> ChannelPrefixes = new()
@@ -101,7 +101,7 @@ public sealed partial class ChatUIController : UIController
         {ChatSelectChannel.OOC, SharedChatSystem.OOCPrefix},
         {ChatSelectChannel.Emotes, SharedChatSystem.EmotesPrefix},
         {ChatSelectChannel.Subtle, SharedChatSystem.SubtlePrefix}, // Floofstation
-        {ChatSelectChannel.SubtleOOC, SharedChatSystem.SubtleOOCPrefix}, // Den
+        {ChatSelectChannel.SubtleOOC, SharedChatSystem.SubtleOOCPrefix}, // Floofstation
         {ChatSelectChannel.Admin, SharedChatSystem.AdminPrefix},
         {ChatSelectChannel.Radio, SharedChatSystem.RadioCommonPrefix},
         {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix},
@@ -207,6 +207,14 @@ public sealed partial class ChatUIController : UIController
 
         _input.SetInputCommand(ContentKeyFunctions.FocusEmote,
             InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.Emotes)));
+
+        // Floofstation section
+        _input.SetInputCommand(ContentKeyFunctions.FocusSubtle, // floof
+            InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.Subtle)));
+
+        _input.SetInputCommand(ContentKeyFunctions.FocusSubtleOOC, // floof
+            InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.SubtleOOC)));
+        // Floofstation section end
 
         _input.SetInputCommand(ContentKeyFunctions.FocusWhisperChat,
             InputCmdHandler.FromDelegate(_ => FocusChannel(ChatSelectChannel.Whisper)));
@@ -542,7 +550,6 @@ public sealed partial class ChatUIController : UIController
         {
             // can always hear local / radio / emote / notifications when in the game
             FilterableChannels |= ChatChannel.Local;
-            FilterableChannels |= ChatChannel.Whisper;
             FilterableChannels |= ChatChannel.Radio;
             FilterableChannels |= ChatChannel.Emotes;
             FilterableChannels |= ChatChannel.Notifications;
@@ -551,15 +558,19 @@ public sealed partial class ChatUIController : UIController
             // TODO: this logic is iffy (checking if controlling something that's NOT a ghost), is there a better way to check this?
             if (_ghost is not {IsGhost: true})
             {
+                // Triad start - only non-ghosts can see subtle, whisper, and subtle OOC
                 FilterableChannels |= ChatChannel.Subtle;
                 FilterableChannels |= ChatChannel.SubtleOOC;
-
+                FilterableChannels |= ChatChannel.Whisper;
+                // Triad end
                 CanSendChannels |= ChatSelectChannel.Local;
                 CanSendChannels |= ChatSelectChannel.Whisper;
                 CanSendChannels |= ChatSelectChannel.Radio;
                 CanSendChannels |= ChatSelectChannel.Emotes;
-                CanSendChannels |= ChatSelectChannel.Subtle; // Floofstation
+                // Floofstation section - only non-ghosts can chat in those
+                CanSendChannels |= ChatSelectChannel.Subtle;
                 CanSendChannels |= ChatSelectChannel.SubtleOOC;
+                // Floofstation section end
             }
         }
 
@@ -570,10 +581,9 @@ public sealed partial class ChatUIController : UIController
             CanSendChannels |= ChatSelectChannel.Dead;
         }
 
-        if (_admin.HasFlag(AdminFlags.Pii) && _ghost is { IsGhost: true })
+        if (_admin.HasFlag(AdminFlags.Admin) && _ghost is { IsGhost: true })
         {
-            FilterableChannels |= ChatChannel.Subtle;
-            FilterableChannels |= ChatChannel.SubtleOOC;
+            FilterableChannels |= ChatChannel.Whisper;
         }
 
         // only admins can see / filter asay
@@ -946,6 +956,15 @@ public sealed partial class ChatUIController : UIController
                 if (_config.GetCVar(CCVars.LoocAboveHeadShow))
                     AddSpeechBubble(msg, SpeechBubble.SpeechType.Looc);
                 break;
+
+            // Floofstation section. Did not bother adding new speech types since these are subsets of existing speech types anyway.
+            case ChatChannel.Subtle:
+                AddSpeechBubble(msg, SpeechBubble.SpeechType.Emote);
+                break;
+            case ChatChannel.SubtleOOC:
+                AddSpeechBubble(msg, SpeechBubble.SpeechType.Looc);
+                break;
+            // Floofstation section end
         }
     }
 

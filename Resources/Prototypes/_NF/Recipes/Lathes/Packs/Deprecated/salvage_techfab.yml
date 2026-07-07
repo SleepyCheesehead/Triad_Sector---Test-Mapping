@@ -17,6 +17,8 @@
     - HandLabeler
     - Signaller
     - ClothingMaskWeldingGas
+    - SprayPainter
+    - SprayPainterAmmo # Upstream#37341
   ## Basic storage
     - ToolboxArtisticNF
     - ToolboxElectricalNF
@@ -59,6 +61,8 @@
     - ConstructionBag # Mono
     - MaterialBoxFlatpack # Mono
     - OreBoxFlatpack # Mono
+    - RubbishBoxFlatpack # Mono
+    - TreasureBoxFlatpack # Mono
     - MiningDrill
     - WeaponProtoKineticAccelerator
     - ClothingNeckIFFNeutral

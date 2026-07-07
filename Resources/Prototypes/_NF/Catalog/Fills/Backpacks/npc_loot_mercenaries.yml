@@ -3,12 +3,13 @@
 - type: entity
   parent: BaseItem
   id: MercenaryDuffelGiftBox
-  name: mercanary gear bundle
+  name: mercenary gear bundle
   description: Loot boxes? Here?
   abstract: true
   categories: [ HideSpawnMenu ]
   suffix: NPC Loot
   components:
+  - type: NFTreasure # Triad
   - type: Sprite
     sprite: _NF/Clothing/Back/Duffels/mercenary.rsi
     state: icon
@@ -23,7 +24,7 @@
 - type: entity
   parent: BaseItem
   id: MercenaryWebbingBox
-  name: mercanary ammo bundle
+  name: mercenary ammo bundle
   description: Loot boxes? Here?
   abstract: true
   categories: [ HideSpawnMenu ]

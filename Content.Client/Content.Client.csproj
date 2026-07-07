@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\bin\Content.Client\</OutputPath>
-    <OutputType>WinExe</OutputType>
+    <OutputType Condition="'$(FullRelease)' != 'True'">Exe</OutputType>
     <WarningsAsErrors>nullable</WarningsAsErrors>
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;Tools;DebugOpt</Configurations>
@@ -16,16 +16,17 @@
     <PackageReference Include="Pidgin" />
     <PackageReference Include="Robust.Shared.AuthLib" />
   </ItemGroup>
-
   <Import Project="..\RobustToolbox\Imports\Lidgren.props" />
   <Import Project="..\RobustToolbox\Imports\Client.props" />
   <Import Project="..\RobustToolbox\Imports\Shared.props" />
-
   <ItemGroup>
     <ProjectReference Include="..\Content.Shared\Content.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="_Mono\Research\UI\" />
+    <Folder Include="_Starlight\Achievement\" />
+    <Folder Include="_Starlight\Actions\" />
+    <Folder Include="_Starlight\Audio\" />
   </ItemGroup>
   <PropertyGroup>
     <DisableXamlIL>true</DisableXamlIL>

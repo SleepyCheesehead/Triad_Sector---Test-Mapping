@@ -8,9 +8,11 @@
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip:
+    - Hair # Triad - Reptilian hair.
     - Snout
 #    - HeadTop # WWDP - Because visible horns its cool
     - HeadSide
+    undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Hunger
   - type: Puller
     needsHands: false
@@ -30,7 +32,7 @@
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Thump']
+    allowedEmotes: ['Thump', 'Hiss', 'Yip'] # Triad - Add hiss and yip emote
   - type: TypingIndicator
     proto: lizard
   - type: Vocal
@@ -165,9 +167,11 @@
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip: # WWDP
+    - Hair # Triad - Reptilian hair.
     - Snout
 #    - HeadTop # WWDP - Because visible horns its cool
     - HeadSide
+    undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Inventory
     speciesId: reptilian
     # WWDP-Edit-Start

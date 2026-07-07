@@ -9,6 +9,7 @@
     Felinid: 3 # Frontier
     Vulpkanin: 3 # Frontier
     Arachnid: 3
+    Feroxi: 3 # DeltaV - Feroxi, see Prototypes/_DV/Entities/Mobs/Species/feroxi.yml
     Oni: 2 # Frontier
     Dwarf: 2
     Diona: 2
@@ -17,3 +18,5 @@
     Goblin: 2 # Frontier
     Harpy: 1 # Frontier
     Tajaran: 3 # Goobstation
+    Avali: 3 # Starlight
+

@@ -22,6 +22,10 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction FocusDeadChat = "FocusDeadChatWindow";
         public static readonly BoundKeyFunction FocusCollectiveMindChat = "FocusCollectiveMindChatWindow"; // Goobstation - Starlight collective mind port
         public static readonly BoundKeyFunction FocusConsoleChat = "FocusConsoleChatWindow";
+        // Floofstation section
+        public static readonly BoundKeyFunction FocusSubtle = "FocusSubtle";
+        public static readonly BoundKeyFunction FocusSubtleOOC = "FocusSubtleOOC";
+        // Floofstation section end
         public static readonly BoundKeyFunction CycleChatChannelForward = "CycleChatChannelForward";
         public static readonly BoundKeyFunction CycleChatChannelBackward = "CycleChatChannelBackward";
         public static readonly BoundKeyFunction EscapeContext = "EscapeContext";
@@ -56,7 +60,6 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction OpenPocket2 = "OpenPocket2";
         public static readonly BoundKeyFunction OpenSuitStorage = "OpenSuitStorage";
         public static readonly BoundKeyFunction OpenOuterClothing = "OpenOuterClothing";
-        public static readonly BoundKeyFunction OpenConsentWindow = "OpenConsentWindow"; // Floofstation
         // Mono End
         public static readonly BoundKeyFunction OpenWallet = "OpenWallet"; // Frontier
         public static readonly BoundKeyFunction OpenAHelp = "OpenAHelp";
@@ -74,6 +77,7 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction RotateObjectCounterclockwise = "RotateObjectCounterclockwise";
         public static readonly BoundKeyFunction FlipObject = "FlipObject";
         public static readonly BoundKeyFunction ToggleRoundEndSummaryWindow = "ToggleRoundEndSummaryWindow";
+        public static readonly BoundKeyFunction OpenConsentWindow = "OpenConsentWindow"; // Floofstation
         public static readonly BoundKeyFunction OpenEntitySpawnWindow = "OpenEntitySpawnWindow";
         public static readonly BoundKeyFunction OpenSandboxWindow = "OpenSandboxWindow";
         public static readonly BoundKeyFunction OpenTileSpawnWindow = "OpenTileSpawnWindow";

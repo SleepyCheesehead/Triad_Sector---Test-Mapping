@@ -29,6 +29,7 @@ rcd-component-must-build-on-subfloor-message = You can only build that on expose
 rcd-component-cannot-build-on-subfloor-message = You can't build that on exposed subfloor!
 rcd-component-cannot-build-on-occupied-tile-message = You can't build here, the space is already occupied!
 rcd-component-cannot-build-identical-tile = That tile already exists there!
+rcd-component-cannot-build-identical-entity = That already exists there!
 
 
 ### Category names
@@ -38,6 +39,13 @@ rcd-component-windows-and-grilles = Windows and grilles
 rcd-component-airlocks = Airlocks
 rcd-component-electrical = Electrical
 rcd-component-lighting = Lighting
+# Triad: RPD port from funky-station
+rcd-component-piping = Piping
+rcd-component-atmosphericutility = Atmospheric Utility
+rcd-component-pumps = Pumps & Valves
+rcd-component-vents = Vents
+rcd-component-sensorsmonitors = Sensors & Monitors
+# End Triad
 
 
 ### Prototype names (note: constructable items will be puralized)
@@ -45,3 +53,12 @@ rcd-component-lighting = Lighting
 rcd-component-deconstruct = deconstruct
 rcd-component-floor-steel = steel tile
 rcd-component-plating = hull plate
+rcd-component-plating-diagonal = diagonal hull plate
+
+# Extra hull plating shapes — rotatable RCD modes (HardLightSector/HardLight#1237)
+rcd-component-plating-half = center-strip half plating
+rcd-component-plating-wedge = wedge hull plating
+rcd-component-plating-halftilt-lower = half-tilt hull plating (lower, axis family)
+rcd-component-plating-halftilt-lower-alt = half-tilt hull plating (lower, offset family)
+rcd-component-plating-halftilt-upper = half-tilt hull plating (upper, axis family)
+rcd-component-plating-halftilt-upper-alt = half-tilt hull plating (upper, offset family)

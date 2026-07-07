@@ -770,6 +770,7 @@
   - ContractorHandheldGPSBasic
   - ContractorRadioHandheld
   - ContractorNetworkConfigurator
+  - ContractorSprayPainter # Triad
   - ContractorHandheldHealthAnalyzerUnpowered
   - ContractorAnomalyScanner
   - ContractorBucket
@@ -908,9 +909,11 @@
   loadouts:
   - ContractorBoxSurvivalNFOxygenExtended
   - ContractorBoxSurvivalNFNitrogenExtended
+  - ContractorBoxSurvivalTriadWaterVaporExtended # Triad
   fallbacks:
   - ContractorBoxSurvivalNFOxygenExtended
   - ContractorBoxSurvivalNFNitrogenExtended
+  - ContractorBoxSurvivalTriadWaterVaporExtended # Triad
 
 - type: loadoutGroup
   id: ContractorEncryptionKey

@@ -1,11 +1,10 @@
 - type: entity
-  parent: BaseStorageStructure
-  id: BasePersistentShipStorageStash
+  id: BasePersistentStorage
   abstract: true
   components:
-  - type: Sprite
-    noRot: true
   - type: HLPersistOnShipSave
+    saveContents: true
+  - type: Appearance
   - type: Storage
     maxItemSize: Large
     blacklist:
@@ -16,8 +15,52 @@
       - Access
       - Store
       - Cash
-      - Currency
       - Headset
+      - SavingContraband
+  - type: RadarBlip
+    radarColor: "#e3ffea"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
+
+- type: entity
+  parent: [BaseStorageStructure, BasePersistentStorage]
+  id: BasePersistentShipStorageStash
+  abstract: true
+  components:
+  - type: Sprite
+    noRot: true
+
+- type: entity
+  parent: BasePersistentStorage
+  id: BasePersistentShipStorageStashWallmount
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Transform
+      noRot: false
+    - type: Sprite
+      drawdepth: WallMountedItems
+      noRot: false
+    - type: InteractionOutline
+    - type: Clickable
+    - type: WallMount
+      arc: 175
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents: []
+    - type: UserInterface
+      interfaces:
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: Storage
+      grid:
+      - 0,0,0,0
+    - type: PlaceableSurface
+      placeCentered: true
+      isPlaceable: false
 
 - type: entity
   parent: BasePersistentShipStorageStash
@@ -54,6 +97,13 @@
       node: MilitaryStorageStashNode
     - type: ShipSaveLimit
       limitId: MilitaryStash
+    - type: LimitedStorage
+      limits:
+      - popup: triad-storage-limit-too-many-advanced-backpacks
+        count: 1
+        whitelist:
+          tags:
+          - AdvancedTacticalBackpack
 
 - type: entity
   parent: BasePersistentShipStorageStash
@@ -74,8 +124,9 @@
         components:
           - Pill
           - Hypospray
-          - MedicalBag
+          - HandLabeler
         tags:
+          - FitsInMedicalStash
           - PillCanister
           - CentrifugeCompatible
           - Syringe
@@ -86,7 +137,8 @@
           - Bottle
           - GlassBeaker
           - ChemDispensable
-          - MedicialBluespaceDeskCompatible
+          - CigPack
+          - Medkit
     - type: Construction
       graph: MedicalSecureStorageGraph
       node: MedicalSecureStorageNode
@@ -117,8 +169,9 @@
         components:
         - Produce
         - Seed
+        - HandLabeler
         tags:
-        - BotanicalTableCompatible
+        - FitsInBotanicalStash
         - BotanyShovel
         - BotanyHatchet
         - PlantSampleTaker
@@ -130,3 +183,32 @@
       node: BotanicalStorageUnitNode
     - type: ShipSaveLimit
       limitId: HydroponicsStash
+
+- type: entity
+  id: FuelStorageStash
+  parent: BasePersistentShipStorageStashWallmount
+  name: fuel stash
+  description: Wall locker to hold all of your fuel needs. Preserves stored items across ship deployments.
+  components:
+    - type: Sprite
+      sprite: _Triad/Structure/Storage/ShipStashes/fuel_storage_stash.rsi
+      layers:
+      - state: fuel
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: fuel_door
+        map: ["enum.StorageVisualLayers.Door"]
+    - type: Storage
+      grid:
+      - 0,0,7,3
+      whitelist:
+        tags:
+        - FitsInFuelStash
+    - type: Construction
+      graph: FuelStorageStashGraph
+      node: FuelStorageStashNode
+    - type: ShipSaveLimit
+      limitId: FuelStash
+    - type: EntityStorageVisuals
+      stateBaseClosed: fuel
+      stateDoorOpen: fuel_open
+      stateDoorClosed: fuel_door

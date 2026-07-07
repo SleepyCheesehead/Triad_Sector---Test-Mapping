@@ -1,0 +1,269 @@
+- type: marking
+  id: DemonChestCowSpots
+  bodyPart: LLeg
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: cow_spots
+
+- type: marking
+  id: DemonChestGuard
+  bodyPart: LLeg
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: guards_stripes
+
+- type: marking
+  id: DemonChestLinesEmperos
+  bodyPart: LLeg
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: lines_emperos
+
+- type: marking
+  id: DemonChestQueenLines
+  bodyPart: LLeg
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: queen_lines
+
+- type: marking
+  id: DemonChestTreeLines
+  bodyPart: LLeg
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: tree_lines
+
+- type: marking
+  id: DemonChestTrinitySpots
+  bodyPart: Chest
+  markingCategory: Overlay
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: trinity_spots
+
+- type: marking
+  id: DemonCowEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: cow_ears
+
+- type: marking
+  id: DemonEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_ears
+
+- type: marking
+  id: DemonElfEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: ears_elf
+
+- type: marking
+  id: DemonCowHorns
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: cow_horns
+
+- type: marking
+  id: DemonHornsDeer
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: deer_antlers_horns
+
+- type: marking
+  id: DemonHornsSmall
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: small_horns
+
+- type: marking
+  id: DemonHornsBuffalo
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_buffalo
+
+- type: marking
+  id: DemonHornsCarpicorn
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_capricorn
+
+- type: marking
+  id: DemonHornsDevil
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_devil
+
+- type: marking
+  id: DemonHornsDevil2
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_devil2
+
+- type: marking
+  id: DemonHornsDevil3
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_devil3
+
+- type: marking
+  id: DemonHornsDevil4
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_devil4
+
+- type: marking
+  id: DemonHornsRam
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_ram
+
+- type: marking
+  id: DemonHornsUnicorn
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: horns_unicorn
+
+- type: marking
+  id: DemomTail1
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  # Triad: base tail silhouette (sourced from ADT parts.rsi:tail; dropped during the original import, leaving only the overlay)
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail_base
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail
+
+- type: marking
+  id: DemomTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  # Triad: base tail silhouette (sourced from ADT parts.rsi:tail; dropped during the original import, leaving only the overlay)
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail_base
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: long
+
+- type: marking
+  id: DemomTailUp
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  # Triad: base tail silhouette (sourced from ADT parts.rsi:tail; dropped during the original import, leaving only the overlay)
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail_base
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: up
+
+# Triad: animated "waggin" demon tails (ADT / Corvax-Wega) + plain base-only options, re-sourced from AdventureTimeSS14.
+# Each animated tail layers the animated base silhouette (tail_waggin) under its animated pattern overlay, frame-for-frame.
+- type: marking
+  id: DemomTail1Animated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: tail_waggin
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail_waggin
+
+- type: marking
+  id: DemomTailLongAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: tail_waggin
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: long_waggin
+
+- type: marking
+  id: DemomTailUpAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: tail_waggin
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: up_waggin
+
+# Plain base-only tails: the silhouette with no pattern overlay (single color).
+- type: marking
+  id: DemomTailPlain
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: demon_tail_base
+
+- type: marking
+  id: DemomTailPlainAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Oni] #Triad
+  sprites:
+  - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
+    state: tail_waggin

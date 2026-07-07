@@ -16,8 +16,8 @@
     - HamsterWearable
     - WhitelistChameleon
   - type: HideLayerClothing
-    slots:
-    - Snout
+    layers:
+      Snout: Mask
     hideOnToggle: true
 
 - type: entity
@@ -451,6 +451,10 @@
         Slash: 0.80
         Piercing: 0.90
         Heat: 0.90
+  # Triad add start
+  - type: SavingContraband
+    examineText: ship-saving-contraband-2-text
+  # Triad end
 
 - type: entity
   parent: ClothingMaskBase
@@ -671,9 +675,9 @@
     sprite: Clothing/Mask/italian_moustache.rsi
   - type: Item
     storedRotation: -90
-  - type: AddAccentClothing
-    accent: ReplacementAccent
-    replacement: italian
+  #- type: AddAccentClothing # Triad removal - Remove forced accents
+  #  accent: ReplacementAccent
+  #  replacement: italian
 
 - type: entity
   parent: ClothingMaskBase

@@ -1,23 +1,5 @@
 # Harpy
 - type: emote
-  id: HarpyHonk
-  name: delta-chat-emote-name-honk
-  category: Vocal
-  available: false
-  whitelist:
-    components:
-    - Vocal
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [honks.]
-  chatTriggers:
-    - honk
-    - honks
-    - honking
-    - honked
-
-- type: emote
   id: HarpyRing
   name: delta-chat-emote-name-ring
   category: Vocal
@@ -28,7 +10,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [rings.]
+  chatMessages: ["delta-chat-emote-msg-ring"] # Triad: was literal `rings.`
   chatTriggers:
     - ring
     - rings
@@ -47,7 +29,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [pews.]
+  chatMessages: ["delta-chat-emote-msg-pew"] # Triad: was literal `pews.`
   chatTriggers:
     - pew
     - pews
@@ -64,30 +46,12 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [bangs.]
+  chatMessages: ["delta-chat-emote-msg-bang"] # Triad: was literal `bangs.`
   chatTriggers:
     - bang
     - bangs
     - banging
     - banged
-
-- type: emote
-  id: HarpyBeep
-  name: delta-chat-emote-name-beep
-  category: Vocal
-  available: false
-  whitelist:
-    components:
-    - Vocal
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [beeps.]
-  chatTriggers:
-    - beep
-    - beeps
-    - beeping
-    - beeped
 
 - type: emote
   id: HarpyRev
@@ -100,7 +64,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [revs.]
+  chatMessages: ["delta-chat-emote-msg-rev"] # Triad: was literal `revs.`
   chatTriggers:
     - rev
     - revs
@@ -118,7 +82,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [caws.]
+  chatMessages: ["delta-chat-emote-msg-caw"] # Triad: was literal `caws.`
   chatTriggers:
     - caw
     - caws
@@ -137,7 +101,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [barks.]
+  chatMessages: ["delta-chat-emote-msg-bark"] # Triad: was literal `barks.`
   chatTriggers:
     - bark
     - barks
@@ -155,7 +119,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [snarls.]
+  chatMessages: ["delta-chat-emote-msg-snarl"] # Triad: was literal `snarls.`
   chatTriggers:
     - snarl
     - snarls
@@ -173,7 +137,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [whimper.] # Starlight / Monolith: Renamed to whimper
+  chatMessages: ["delta-chat-emote-msg-whimper"] # Triad: was literal `whimper.`
   chatTriggers:
     - whimper
     - whimpers
@@ -191,7 +155,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [howls.]
+  chatMessages: ["delta-chat-emote-msg-howl"] # Triad: was literal `howls.`
   chatTriggers:
     - howl
     - howls
@@ -209,9 +173,44 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [awoos.]
+  chatMessages: ["delta-chat-emote-msg-awoo"] # Triad: was literal `awoos.`
   chatTriggers:
     - awoo
     - awoos
     - awooing
     - awooed
+
+# Feroxi
+- type: emote
+  id: Gnash
+  name: delta-chat-emote-name-gnash
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["delta-chat-emote-msg-gnash"] # Triad: was literal `gnashes.`
+  chatTriggers:
+    - gnash
+    - gnashes
+    - gnashing
+    - gnashed
+    - gnash teeth
+    - gnashes teeth
+    - gnashing teeth
+    - gnashed teeth
+    - gnashes their teeth
+    - gnashes her teeth
+    - gnashes his teeth
+    - gnashes its teeth
+    - gnashing their teeth
+    - gnashing her teeth
+    - gnashing his teeth
+    - gnashing its teeth
+    - gnashed their teeth
+    - gnashed her teeth
+    - gnashed his teeth
+    - gnashed its teeth

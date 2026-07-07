@@ -32,6 +32,8 @@
       - state: equipped-HEAD
       head-vox:
       - state: equipped-HEAD-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-vulpkanin
   - type: SealableClothingVisuals
     spriteLayer: sealed
     clothingVisuals:
@@ -39,6 +41,8 @@
       - state: equipped-HEAD-sealed
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: ComponentToggler
     components:
     - type: BreathMask
@@ -51,17 +55,18 @@
     - type: IdentityBlocker
     - type: IngestionBlocker
     - type: HideLayerClothing
-      slots:
-      - Hair
-      - Snout
-      - HeadTop
-      - HeadSide
+      layers:
+        Hair: HEAD
+        Snout: HEAD
+        HeadTop: HEAD
+        HeadSide: HEAD
   - type: Battery
     maxCharge: 600 #lights drain 3/s but recharge of 2 makes this 1/s. Therefore 600 is 10 minutes of light.
     startingCharge: 600
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 2
+
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -101,6 +106,8 @@
       - state: equipped-HEAD-sealed-resomi
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: Armor
     modifiers:
       coefficients:
@@ -153,10 +160,10 @@
     clothingVisuals:
       head:
       - state: equipped-HEAD
-      head-resomi:
-      - state: equipped-HEAD-resomi
       head-vox:
       - state: equipped-HEAD-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-vulpkanin
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Modsuits/security.rsi
   - type: SealableClothingVisuals
@@ -168,6 +175,8 @@
       - state: equipped-HEAD-sealed-resomi
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: Armor
     modifiers:
       coefficients:
@@ -224,6 +233,8 @@
       - state: equipped-HEAD-resomi
       head-vox:
       - state: equipped-HEAD-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-vulpkanin
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Modsuits/headofsecurity.rsi
   - type: SealableClothingVisuals
@@ -235,6 +246,8 @@
       - state: equipped-HEAD-sealed-resomi
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: Armor
     modifiers:
       coefficients:
@@ -389,19 +402,19 @@
     clothingVisuals:
       head:
       - state: equipped-HEAD
-      head-resomi:
-      - state: equipped-HEAD-resomi
       head-vox:
       - state: equipped-HEAD-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-vulpkanin
   - type: SealableClothingVisuals
     spriteLayer: sealed
     clothingVisuals:
       head:
       - state: equipped-HEAD-sealed
-      head-resomi:
-      - state: equipped-HEAD-sealed-resomi
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: Armor
     modifiers:
       coefficients:
@@ -504,8 +517,6 @@
     clothingVisuals:
       head:
       - state: equipped-HEAD
-      head-resomi:
-      - state: equipped-HEAD-resomi
       head-vox:
       - state: equipped-HEAD-vox
   - type: Sprite
@@ -515,10 +526,10 @@
     clothingVisuals:
       head:
       - state: equipped-HEAD-sealed
-      head-resomi:
-      - state: equipped-HEAD-sealed-resomi
       head-vox:
       - state: equipped-HEAD-sealed-vox
+      head-vulpkanin:
+      - state: equipped-HEAD-sealed-vulpkanin
   - type: Armor
     modifiers:
       coefficients:

@@ -1,7 +1,7 @@
 - type: construction
   id: CivilianStorageStash
-  name: Civilian Storage Stash
-  description: A flatpack personal storage unit. Deployed stashes retain their contents between ship saves.
+  name: civilian storage stash
+  description: Miscellaneous everyday supplies and personal items. Preserves stored items across ship deployments.
   graph: CivilianStorageStashGraph
   startNode: start
   targetNode: CivilianStorageStashNode
@@ -17,7 +17,7 @@
 
 - type: construction
   id: MilitaryStorageStash
-  name: Military Storage Stash
+  name: military storage stash
   description: A reinforced flatpack storage unit for secure operations. Preserves stored items across ship deployments.
   graph: MilitaryStorageStashGraph
   startNode: start
@@ -34,8 +34,8 @@
 
 - type: construction
   id: MedicalSecureStorage
-  name: Medical Sanitized Stash
-  description: A reinforced flatpack storage unit for secure operations. Preserves stored items across ship deployments.
+  name: medical sanitized stash
+  description: Sterile stash of clean medical supplies. Preserves stored items across ship deployments.
   graph: MedicalSecureStorageGraph
   startNode: start
   targetNode: MedicalSecureStorageNode
@@ -51,7 +51,7 @@
 
 - type: construction
   id: BotanicalStorageUnit
-  name: Botanical Greenhouse Stash
+  name: botanical greenhouse stash
   description: Assorted seeds, plants, and gardening gear stash. Contents are securely preserved across ship operations.
   graph: BotanicalStorageUnitGraph
   startNode: start
@@ -65,3 +65,21 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: FuelStorageStash
+  name: fuel stash
+  description: Wall locker to hold all of your fuel needs. Preserves stored items across ship deployments.
+  graph: FuelStorageStashGraph
+  startNode: start
+  targetNode: FuelStorageStashNode
+  category: construction-category-storage
+  icon:
+    sprite: _Triad/Structure/Storage/ShipStashes/fuel_storage_stash.rsi
+    state: fuel_door
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+    - !type:WallmountCondition

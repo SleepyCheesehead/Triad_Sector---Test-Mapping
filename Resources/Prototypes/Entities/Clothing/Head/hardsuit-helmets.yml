@@ -51,6 +51,12 @@
       head-vox:
       - state: equipped-head-light-vox
         shader: unshaded
+      head-avali: #Starlight
+      - state: equipped-head-light-avali
+        shader: unshaded
+      head-vulpkanin: # Mono
+      - state: equipped-head-light-vulpkanin
+        shader: unshaded
   - type: Clothing
     clothingVisuals:
       head:
@@ -60,6 +66,14 @@
       head-vox:
       - state: equipped-head-vox
       - state: equipped-head-unshaded-vox
+        shader: unshaded
+      head-avali: #Starlight
+      - state: equipped-head-avali
+      - state: equipped-head-unshaded-avali
+        shader: unshaded
+      head-vulpkanin: # Mono
+      - state: equipped-head-vulpkanin
+      - state: equipped-head-unshaded-vulpkanin
         shader: unshaded
   - type: PointLight
     color: "#adffe6"
@@ -116,6 +130,12 @@
       head-vox:
       - state: equipped-head-light-vox
         shader: unshaded
+      head-avali: # Starlight
+      - state: equipped-head-light-avali
+        shader: unshaded
+      head-vulpkanin: # Triad
+      - state: equipped-head-light-vulpkanin
+        shader: unshaded
   - type: Clothing
     clothingVisuals:
       head:
@@ -129,6 +149,14 @@
       head-hydrakin:
       - state: equipped-head-hydrakin
       - state: equipped-head-unshaded-hydrakin
+        shader: unshaded
+      head-avali: # Starlight
+      - state: equipped-head-avali
+      - state: equipped-head-unshaded-avali
+        shader: unshaded
+      head-vulpkanin: # Mono
+      - state: equipped-head-vulpkanin
+      - state: equipped-head-unshaded-vulpkanin
         shader: unshaded
   - type: PointLight
     radius: 7 #6->7 Mono
@@ -734,6 +762,14 @@
       head:
       - state: equipped-head
       - state: equipped-head-unshaded
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-vox
+      - state: equipped-head-unshaded-vox
+        shader: unshaded
+      head-vulpkanin: # Mono
+      - state: equipped-head-vulpkanin
+      - state: equipped-head-unshaded-vulpkanin
         shader: unshaded
   - type: PointLight
     color: orange

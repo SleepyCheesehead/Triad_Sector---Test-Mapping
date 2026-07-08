@@ -2187,3 +2187,37 @@ Entries:
   id: 2357
   time: '2026-07-08T01:38:55.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/293
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added the Triad Defense force; local security militia! They will be
+        enforcing the laws around the sector.
+    - type: Tweak
+      message: >-
+        Renamed the Judge role to Station Guard, being a dedicated Venmar
+        Station guard, bringing any criminals to the TDF base, but they do not
+        have jurisdiction over arresting criminals outside of MD/Central station
+        space
+    - type: Tweak
+      message: >-
+        The Overseer has had a change of duties. They will now ensure Colonial
+        personnel do their duties, do bookkeeping, and use the ID card console
+        on anyone that needs an access change.
+    - type: Tweak
+      message: Added ranks for DoC, Overseer, and Emergency responders.
+    - type: Tweak
+      message: Station guards now have playtime ranks.
+    - type: Tweak
+      message: >-
+        The Overseer now spawns with a multiphase energy gun instead of the
+        lawbringer. Station guards now get a disabler instead of the lawbringer.
+    - type: Add
+      message: Added Adjudant corvette ship to TDF shipyard, made by Deox
+    - type: Add
+      message: Added Grunder destroyer ship to TDF shipyard, made by Clift
+    - type: Remove
+      message: Disabled Camelot pending major USSP rework.
+  id: 2358
+  time: '2026-07-08T12:29:22.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/107

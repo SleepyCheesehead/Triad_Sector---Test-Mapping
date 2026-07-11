@@ -2450,3 +2450,12 @@ Entries:
   id: 2381
   time: '2026-07-11T05:36:48.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/330
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Fixed NPC ship AI freezing when drones woke up before their map finished
+        loading.
+  id: 2382
+  time: '2026-07-11T05:47:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/331

@@ -2459,3 +2459,12 @@ Entries:
   id: 2382
   time: '2026-07-11T05:47:56.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/331
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        NPC ship drones now respect faction relations and will not attack
+        friendly targets.
+  id: 2383
+  time: '2026-07-11T05:54:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/332

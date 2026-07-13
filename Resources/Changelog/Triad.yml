@@ -2530,3 +2530,12 @@ Entries:
   id: 2391
   time: '2026-07-13T18:23:08.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/350
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Mercenary fabricators now have the following items available roundstart:
+        disablers, disabler SMGs, and stun batons.
+  id: 2392
+  time: '2026-07-13T21:47:14.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/336

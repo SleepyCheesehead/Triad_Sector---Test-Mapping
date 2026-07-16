@@ -2684,3 +2684,10 @@ Entries:
   id: 2406
   time: '2026-07-16T15:14:30.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/367
+- author: satirically
+  changes:
+    - type: Fix
+      message: Power forks not being able to be put in mechs.
+  id: 2407
+  time: '2026-07-16T19:44:58.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/369

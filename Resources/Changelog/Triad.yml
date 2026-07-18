@@ -2790,3 +2790,14 @@ Entries:
   id: 2415
   time: '2026-07-18T00:18:22.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/376
+- author: Delta-V
+  changes:
+    - type: Remove
+      message: Removed the battery requirement from holofan projectors.
+    - type: Tweak
+      message: >-
+        Holoprojectors now work like in SS13, you can place up to 6 at once with
+        charges reclaimed by removing unused holoprojectors.
+  id: 2416
+  time: '2026-07-18T00:31:22.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/363

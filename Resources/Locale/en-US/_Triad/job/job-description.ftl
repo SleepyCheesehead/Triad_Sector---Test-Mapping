@@ -1,9 +1,9 @@
 # TDF
-job-description-tdf-warden = Ensure order at the TDF base and make sure that criminals are fairly and justly sentenced.
+job-description-tdf-warden = Ensure order at the Auric Outpost and sector. Make sure that criminals are fairly and justly sentenced.
 job-description-tdf-medic = Fight in the rear of the Chief Enforcer's service, for the lives of your comrades! You are the first and last hope of your team. Hippocrates bless you.
-job-description-tdf-cadet = Enforce the laws of the Triad sector. Listen to your supervisors and feel free to ask them for any help.
-job-description-tdf-enforcer = Stop smugglers, enforce the sector's law, and bring order to chaos in the sector.
-job-description-tdf-patrol-team-leader = Teach new cadets the basics of what the TDF does and deals with. Lead your assigned patrol team; show the sector the law has no bounds.
+job-description-tdf-cadet = Serve as the main protection force in the Triad sector. Listen to your supervisors and feel free to ask them for any help.
+job-description-tdf-enforcer = Stop smugglers and protect the residents of the Triad sector.
+job-description-tdf-patrol-team-leader = Teach new enforcers the basics of what the TDF does and deals with. Lead your assigned patrol team; show the sector the TDF has no bounds.
 job-description-tdf-chief-enforcer = Manage your TDF team and keep them efficient, quell dissent, and keep the sector safe.
 
 # TDF High Command

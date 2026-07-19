@@ -2847,3 +2847,22 @@ Entries:
   id: 2420
   time: '2026-07-19T19:40:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/381
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        The Edison is now run by the Director of Infrastructure and Sector
+        Technician (the Infrastructure department).
+    - type: Add
+      message: Shielded light fixtures can now be constructed.
+    - type: Tweak
+      message: >-
+        Reworked Edison and outpost access so infrastructure staff can reach
+        their areas, consoles, and the material vault.
+    - type: Fix
+      message: Plant roles no longer drop duplicate equipment when spawning.
+    - type: Fix
+      message: Plant roles can save and load ships again.
+  id: 2421
+  time: '2026-07-19T19:59:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/383

@@ -24,7 +24,7 @@
   mapPath: /Maps/_Triad/Shuttles/Tdf/arbalest.yml
   minPlayers: 0
   stations:
-    Adjutant:
+    Arbalest:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup

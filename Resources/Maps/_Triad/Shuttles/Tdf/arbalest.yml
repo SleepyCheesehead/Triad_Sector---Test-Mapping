@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.2.1
   forkId: ""
   forkVersion: ""
-  time: 08/26/2026 11:57:46
-  entityCount: 646
+  time: 08/28/2026 23:07:03
+  entityCount: 650
 maps: []
 grids:
 - 1
@@ -106,11 +106,21 @@ entities:
             id: BrickLineOverlayE
           decals:
             57: -3,3
+            67: -1,6
+            68: -1,7
+            69: -1,8
         - node:
             color: '#B39456FF'
             id: BrickLineOverlayS
           decals:
             59: -2,4
+        - node:
+            color: '#B39456FF'
+            id: BrickLineOverlayW
+          decals:
+            70: 1,8
+            71: 1,7
+            72: 1,6
         - node:
             color: '#B39456FF'
             id: BrickTileWhiteInnerSe
@@ -138,6 +148,8 @@ entities:
             35: -2,4
             48: 2,-2
             49: 3,-2
+            73: 1,8
+            74: -1,8
         - node:
             color: '#FFFFFFFF'
             id: TechNE
@@ -165,6 +177,8 @@ entities:
             26: -2,0
             50: 2,-4
             51: 3,-4
+            75: -1,6
+            76: 1,6
         - node:
             color: '#FFFFFFFF'
             id: TechSE
@@ -506,20 +520,19 @@ entities:
     - type: Transform
       pos: 0.5,-0.5
       parent: 1
-- proto: AirlockExternalGlassNfsd
+- proto: AirlockExternalGlassNfsdLocked
   entities:
-  - uid: 541
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,1.5
-      parent: 1
-  - uid: 563
+  - uid: 110
     components:
     - type: Transform
       pos: 5.5,0.5
       parent: 1
-- proto: AirlockShuttleNfsd
+  - uid: 197
+    components:
+    - type: Transform
+      pos: 5.5,1.5
+      parent: 1
+- proto: AirlockShuttleNfsdLocked
   entities:
   - uid: 280
     components:
@@ -527,28 +540,28 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 7.5,1.5
       parent: 1
-  - uid: 556
+  - uid: 541
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 7.5,0.5
       parent: 1
-- proto: AirlockTdf
+- proto: AirlockTdfSecurityLocked
   entities:
-  - uid: 110
+  - uid: 556
     components:
     - type: Transform
-      pos: 1.5,1.5
-      parent: 1
-  - uid: 197
-    components:
-    - type: Transform
-      pos: 0.5,5.5
+      pos: 0.5,9.5
       parent: 1
   - uid: 558
     components:
     - type: Transform
-      pos: 0.5,9.5
+      pos: 0.5,5.5
+      parent: 1
+  - uid: 563
+    components:
+    - type: Transform
+      pos: 1.5,1.5
       parent: 1
 - proto: AmeController
   entities:
@@ -1052,8 +1065,19 @@ entities:
   - uid: 198
     components:
     - type: Transform
+      anchored: True
       pos: -0.5,0.5
       parent: 1
+    - type: Physics
+      bodyType: Static
+  - uid: 590
+    components:
+    - type: Transform
+      anchored: True
+      pos: 4.5,2.5
+      parent: 1
+    - type: Physics
+      bodyType: Static
 - proto: BenchSofaCorpCorner
   entities:
   - uid: 308
@@ -1857,6 +1881,13 @@ entities:
     components:
     - type: Transform
       pos: -2.5,9.5
+      parent: 1
+- proto: CMSemioticBathunisex
+  entities:
+  - uid: 650
+    components:
+    - type: Transform
+      pos: -3.5,2.5
       parent: 1
 - proto: CMSemioticExhaust
   entities:
@@ -3221,6 +3252,14 @@ entities:
     - type: Transform
       pos: -3.5,8.5
       parent: 1
+- proto: SignDirectionalDorms
+  entities:
+  - uid: 573
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,9.5
+      parent: 1
 - proto: SignNfsd
   entities:
   - uid: 151
@@ -4265,6 +4304,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,0.5
+      parent: 1
+- proto: WaterCooler
+  entities:
+  - uid: 587
+    components:
+    - type: Transform
+      pos: 2.5,2.5
       parent: 1
 - proto: WeaponTurretCharonReload
   entities:

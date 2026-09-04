@@ -4541,3 +4541,18 @@ Entries:
   id: 2581
   time: '2026-09-04T16:16:17.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/603
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        Venmar mining and improvement department has expanded the park
+        recreation area with a new pool.  Tax payers are required to take breaks
+        to optimise workflow performances.  Swimming has been shown to improve
+        happiness.
+    - type: Fix
+      message: >-
+        Pilots/Mercs/Spacers should no longer spawn in areas they shouldn't when
+        spawning at Edison roundstart
+  id: 2582
+  time: '2026-09-04T16:25:36.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/602

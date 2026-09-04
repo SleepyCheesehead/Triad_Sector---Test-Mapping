@@ -4534,3 +4534,10 @@ Entries:
   id: 2580
   time: '2026-09-04T15:49:02.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/607
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Ironman voucher can now purchase a Sleipnir at the scrapyard console
+  id: 2581
+  time: '2026-09-04T16:16:17.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/603

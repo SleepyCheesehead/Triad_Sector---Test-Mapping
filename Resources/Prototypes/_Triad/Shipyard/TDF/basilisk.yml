@@ -6,7 +6,7 @@
   parent: BaseVesselTdf
   name: TDF Basilisk
   description: Created during the highest fervor of liberation, basilisk are designed to be the main battleline of CDF, now TDF fleet composition. It's armaments of 4 CYREXA and 4 AK570 are aimed to punish those who enter it's line of sight, but it will struggle to maintain it's flank security.
-  price: 194000
+  price: 192000
   category: Medium
   group: Security
   access: Security

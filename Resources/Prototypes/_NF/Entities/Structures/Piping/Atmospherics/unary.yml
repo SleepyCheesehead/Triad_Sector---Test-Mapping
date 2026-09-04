@@ -84,7 +84,7 @@
     powerLoad: 1000
   # Triad - Battery-powered gas drill
   - type: Battery
-    maxCharge: 3500
+    maxCharge: 5000
     startingCharge: 0
   - type: ExaminableBattery
   - type: BatterySelfRecharger

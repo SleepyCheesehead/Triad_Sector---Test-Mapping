@@ -4581,3 +4581,16 @@ Entries:
   id: 2583
   time: '2026-09-05T05:17:47.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/608
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        Resprited the captain jetpack, the blue jetpack, the black jetpack, the
+        mini jetpack, and the security jetpack
+    - type: Fix
+      message: >-
+        Fixed jetpack 'turned on' clothing sprites not working. You should see a
+        little green light on a clothing jetpack now!
+  id: 2584
+  time: '2026-09-05T17:22:52.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/609

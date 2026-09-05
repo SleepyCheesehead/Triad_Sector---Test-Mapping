@@ -4594,3 +4594,23 @@ Entries:
   id: 2584
   time: '2026-09-05T17:22:52.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/609
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: The Expedition Shipyard has been reworked into the Military Shipyard.
+    - type: Tweak
+      message: >-
+        All Civilian Expedition Vessels have been moved to the normal shipyard,
+        while all vessels with 'MIL' IFF have been moved to the military
+        shipyard.
+    - type: Remove
+      message: >-
+        There is no longer a mercenary access requirement for purchasing some
+        ships on the shipyard consoles.
+    - type: Add
+      message: >-
+        Added salvage expedition console flatpack to the expeditionary flatpack
+        vendor.
+  id: 2585
+  time: '2026-09-05T19:05:04.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/610

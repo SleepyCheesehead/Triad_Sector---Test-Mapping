@@ -4634,3 +4634,45 @@ Entries:
   id: 2587
   time: '2026-09-05T20:04:10.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/559
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: The game now runs on RobustToolbox 289.0.2.
+    - type: Fix
+      message: >-
+        The RPD's placement ghost and the pipe it builds agree again. Rotating
+        or aiming a pipe layer right after swapping to the tool no longer gets
+        silently ignored, switching from building to deconstructing keeps the
+        layer you aim at, and holding the cursor on a secondary or tertiary
+        layer no longer resets the ghost every tick.
+    - type: Fix
+      message: >-
+        The RPD deconstruct mode removes the pipe on the layer you aim at, not
+        whichever it last remembered.
+    - type: Fix
+      message: >-
+        Arriving from FTL at a destination that was deleted mid-flight no longer
+        throws.
+    - type: Fix
+      message: >-
+        Entities swapped in by grid modifiers keep their facing on rotated
+        grids.
+    - type: Fix
+      message: >-
+        The admin explosion, teleport, atmos, gas and blueprint windows keep
+        their position when resized.
+    - type: Fix
+      message: >-
+        A misauthored biome marker layer logs and skips instead of crashing
+        world generation.
+    - type: Fix
+      message: >-
+        Multitools, jaws of life and tile deconstruction keep working after the
+        engine's tool-quality serializer was removed.
+    - type: Tweak
+      message: >-
+        Construction ghosts take their rotation at spawn, the same way upstream
+        does; rotated builds land exactly as previewed.
+  id: 2588
+  time: '2026-09-05T21:03:07.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/612

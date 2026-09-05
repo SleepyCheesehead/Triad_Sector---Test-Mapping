@@ -4556,3 +4556,28 @@ Entries:
   id: 2582
   time: '2026-09-04T16:25:36.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/602
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        The nuclear reactor and gas turbine can be researched and built, on 5x5,
+        3x5, 3x3 and 3x2 machine frames.
+    - type: Add
+      message: >-
+        Reactor and turbine monitor computers, and a nuclear fabricator for rods
+        and turbine parts.
+    - type: Tweak
+      message: >-
+        A reactor meltdown is contained to the hull it starts on, and reactor
+        warnings go out on the shortband only.
+    - type: Tweak
+      message: >-
+        The nuclear reactor guidebook pages were rewritten, and the reactor
+        panel shows which slot is selected.
+    - type: Remove
+      message: Reactor and turbine parts crates are no longer sold by cargo.
+    - type: Fix
+      message: Plutonium fuel rods can no longer be taken over by ghosts.
+  id: 2583
+  time: '2026-09-05T05:17:47.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/608

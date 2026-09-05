@@ -4614,3 +4614,16 @@ Entries:
   id: 2585
   time: '2026-09-05T19:05:04.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/610
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        The Offshore gas mining guidebook under Engineering/Atmospherics has
+        been improved, mentioning gases such as Healium and Nitrium. It talks
+        about portable gaslock and gas drills' internal batteries, and also
+        includes a chart about which gases are the most dense on each asteroid
+        type. It no longer mentions gas purity, as you impure gases do not sell
+        for any less.
+  id: 2586
+  time: '2026-09-05T19:58:19.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/611

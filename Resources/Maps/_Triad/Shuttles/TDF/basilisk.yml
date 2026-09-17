@@ -4,8 +4,8 @@ meta:
   engineVersion: 287.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/10/2026 10:12:28
-  entityCount: 950
+  time: 09/17/2026 23:10:01
+  entityCount: 958
 maps: []
 grids:
 - 1
@@ -78,10 +78,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
+        MetalFoam: []
+        Kudzu: []
         Puddle: []
         Smoke: []
-        Kudzu: []
-        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -739,7 +739,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      rot: -1.5707963267948966 rad
+      rot: 1.5707963267948966 rad
       pos: -1.5,-13.5
   - uid: 75
     components:
@@ -752,6 +752,12 @@ entities:
     - type: Transform
       parent: 1
       pos: -0.5,-3.5
+  - uid: 403
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-9.5
   - uid: 694
     components:
     - type: Transform
@@ -1813,11 +1819,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 1.5,-16.5
-  - uid: 394
-    components:
-    - type: Transform
-      parent: 1
-      pos: -2.5,-13.5
   - uid: 395
     components:
     - type: Transform
@@ -1858,11 +1859,6 @@ entities:
     - type: Transform
       parent: 1
       pos: -0.5,-10.5
-  - uid: 424
-    components:
-    - type: Transform
-      parent: 1
-      pos: -1.5,-10.5
   - uid: 425
     components:
     - type: Transform
@@ -1918,11 +1914,6 @@ entities:
     - type: Transform
       parent: 1
       pos: -1.5,-14.5
-  - uid: 478
-    components:
-    - type: Transform
-      parent: 1
-      pos: -5.5,-13.5
   - uid: 479
     components:
     - type: Transform
@@ -1973,6 +1964,16 @@ entities:
     - type: Transform
       parent: 1
       pos: 6.5,-8.5
+  - uid: 918
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,-12.5
+  - uid: 940
+    components:
+    - type: Transform
+      parent: 1
+      pos: -4.5,-9.5
 - proto: CableHV
   entities:
   - uid: 26
@@ -2065,6 +2066,16 @@ entities:
     - type: Transform
       parent: 1
       pos: -4.5,-14.5
+  - uid: 927
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,-13.5
+  - uid: 928
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,-12.5
 - proto: CableMV
   entities:
   - uid: 15
@@ -2162,6 +2173,11 @@ entities:
     - type: Transform
       parent: 1
       pos: 0.5,-3.5
+  - uid: 394
+    components:
+    - type: Transform
+      parent: 1
+      pos: -0.5,-10.5
   - uid: 439
     components:
     - type: Transform
@@ -2197,6 +2213,31 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.5,-5.5
+  - uid: 929
+    components:
+    - type: Transform
+      parent: 1
+      pos: -1.5,-10.5
+  - uid: 935
+    components:
+    - type: Transform
+      parent: 1
+      pos: -2.5,-10.5
+  - uid: 936
+    components:
+    - type: Transform
+      parent: 1
+      pos: -4.5,-9.5
+  - uid: 937
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,-9.5
+  - uid: 939
+    components:
+    - type: Transform
+      parent: 1
+      pos: -2.5,-9.5
 - proto: CableTerminal
   entities:
   - uid: 677
@@ -3911,6 +3952,13 @@ entities:
     - type: Transform
       parent: 1
       pos: -1.5,-0.5
+- proto: LargeAPC
+  entities:
+  - uid: 478
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,-12.5
 - proto: LockerAtmosphericsFilled
   entities:
   - uid: 917
@@ -3918,16 +3966,6 @@ entities:
     - type: Transform
       parent: 1
       pos: -3.5,-10.5
-      anchored: True
-    - type: Physics
-      bodyType: Static
-- proto: LockerEngineerFilled
-  entities:
-  - uid: 918
-    components:
-    - type: Transform
-      parent: 1
-      pos: -2.5,-12.5
       anchored: True
     - type: Physics
       bodyType: Static
@@ -4572,11 +4610,11 @@ entities:
       pos: -1.5,-3.5
 - proto: ShieldGeneratorMedium
   entities:
-  - uid: 403
+  - uid: 424
     components:
     - type: Transform
       parent: 1
-      pos: -3.5,-12.5
+      pos: -2.5,-12.5
 - proto: Shower
   entities:
   - uid: 746

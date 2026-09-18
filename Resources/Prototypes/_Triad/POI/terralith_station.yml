@@ -2,8 +2,8 @@
   id: TerralithStation
   parent: BasePOI
   name: 'Terralith Central Fabrication Station'
-  minimumDistance: 25500 # For middle of outer reaches II and before Outer Reaches IV
-  maximumDistance: 31000
+  minimumDistance: 22500 # For middle of outer reaches II and before Outer Reaches IV
+  maximumDistance: 30000
   spawnGroup: Required
   gridPath: /Maps/_Triad/POI/terralithstation.yml
   addComponents:

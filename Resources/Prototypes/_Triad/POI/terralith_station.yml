@@ -1,11 +1,11 @@
 - type: pointOfInterest
   id: TerralithStation
   parent: BasePOI
-  name: 'Terralith Central Fabrication Station'
+  name: 'Terralith Research Center'
   minimumDistance: 22500 # For middle of outer reaches II and before Outer Reaches IV
   maximumDistance: 30000
   spawnGroup: Required
-  gridPath: /Maps/_Triad/POI/terralithstation.yml
+  gridPath: /Maps/_Triad/POI/terralith_station.yml
   addComponents:
   - type: IFF
     color: "#10771A"
@@ -14,8 +14,8 @@
 
 - type: gameMap
   id: TerralithStation
-  mapName: 'Terralith Central Fabrication Station'
-  mapPath: /Maps/_Triad/POI/terralithstation.yml
+  mapName: 'Terralith Research Center'
+  mapPath: /Maps/_Triad/POI/terralith_station.yml
   minPlayers: 0
   stations:
     TerralithStation:

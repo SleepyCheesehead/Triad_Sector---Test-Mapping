@@ -4,8 +4,8 @@ meta:
   engineVersion: 289.0.2
   forkId: ""
   forkVersion: ""
-  time: 09/22/2026 10:37:23
-  entityCount: 6919
+  time: 09/25/2026 07:27:14
+  entityCount: 6969
 maps: []
 grids:
 - 1
@@ -227,9 +227,9 @@ entities:
     - type: SpreaderGrid
       spreadQueues:
         Kudzu: []
-        Puddle: []
         MetalFoam: []
         Smoke: []
+        Puddle: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -17777,6 +17777,12 @@ entities:
     - type: Transform
       parent: 1
       pos: 32.5,-2.5
+  - uid: 6921
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 24.487045,-1.4458977
 - proto: ChairOfficeLight
   entities:
   - uid: 3418
@@ -18047,6 +18053,17 @@ entities:
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 0.5,6.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+- proto: ComputerWallmountAdvancedRadar
+  entities:
+  - uid: 6929
+    components:
+    - type: Transform
+      parent: 1
+      pos: 27.5,1.5
     - type: ApcPowerReceiver
       powerLoad: 5
     - type: Battery
@@ -19065,6 +19082,97 @@ entities:
     - type: Transform
       parent: 1
       pos: 6.5,2.5
+- proto: DefaultStationBeaconBar
+  entities:
+  - uid: 6930
+    components:
+    - type: Transform
+      parent: 1
+      pos: 22.5,-16.5
+- proto: DefaultStationBeaconBridge
+  entities:
+  - uid: 6931
+    components:
+    - type: Transform
+      parent: 1
+      pos: 27.5,-0.5
+- proto: DefaultStationBeaconDisposals
+  entities:
+  - uid: 6933
+    components:
+    - type: Transform
+      parent: 1
+      pos: 11.5,-9.5
+- proto: DefaultStationBeaconDorms
+  entities:
+  - uid: 6936
+    components:
+    - type: Transform
+      parent: 1
+      pos: 19.5,25.5
+- proto: DefaultStationBeaconEngineering
+  entities:
+  - uid: 6946
+    components:
+    - type: Transform
+      parent: 1
+      pos: 12.5,11.5
+- proto: DefaultStationBeaconFrontierConference
+  entities:
+  - uid: 6932
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,30.5
+- proto: DefaultStationBeaconFrontierDockOne
+  entities:
+  - uid: 6934
+    components:
+    - type: Transform
+      parent: 1
+      pos: -22.5,6.5
+- proto: DefaultStationBeaconFrontierDockTwo
+  entities:
+  - uid: 6935
+    components:
+    - type: Transform
+      parent: 1
+      pos: -19.5,-22.5
+- proto: DefaultStationBeaconGravGen
+  entities:
+  - uid: 6947
+    components:
+    - type: Transform
+      parent: 1
+      pos: 20.5,10.5
+- proto: DefaultStationBeaconMedical
+  entities:
+  - uid: 6937
+    components:
+    - type: Transform
+      parent: 1
+      pos: 34.5,-10.5
+- proto: DefaultStationBeaconScience
+  entities:
+  - uid: 6938
+    components:
+    - type: Transform
+      parent: 1
+      pos: 8.5,-19.5
+- proto: DefaultStationBeaconSecurity
+  entities:
+  - uid: 6939
+    components:
+    - type: Transform
+      parent: 1
+      pos: -3.5,16.5
+- proto: DefaultStationBeaconTechVault
+  entities:
+  - uid: 6940
+    components:
+    - type: Transform
+      parent: 1
+      pos: 44.5,6.5
 - proto: DeskBell
   entities:
   - uid: 6454
@@ -20092,6 +20200,13 @@ entities:
     - type: Transform
       parent: 1
       pos: 0.5,32.5
+- proto: FaxMachineBase
+  entities:
+  - uid: 6968
+    components:
+    - type: Transform
+      parent: 1
+      pos: 24.5,-0.5
 - proto: Firelock
   entities:
   - uid: 581
@@ -29258,6 +29373,233 @@ entities:
     - type: Transform
       parent: 1
       pos: 14.5,-7.5
+- proto: Paper
+  entities:
+  - uid: 6920
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 31.537579,-0.3975706
+    - type: Paper
+      content: >2-
+
+        [head=1][color=#1c6bba]TERRALITH RESEARCH CENTER[/color][/head]
+
+
+        [head=2][color=#666666]SECURITY & ASSET PROTECTION MEMORANDUM[/color][/head]
+
+
+        [align=center][b]WARNING: AUTOMATED DEFENSE PROTOCOL — TECH DISK PRINTER[/b][/align]
+
+
+        [b]MEMO REF:[/b] TRC-SEC-089
+
+        [b]SUBJECT:[/b] Restricted Vault Access & Automated Security System
+
+        [b]CLEARANCE LEVEL:[/b] [color=red]AUTHORIZED PERSONNEL ONLY[/color]
+
+
+
+        [head=3]I. ASSET OVERVIEW[/head]
+
+        The [b]Tech Disk Printer[/b] remains the primary asset for encoding and fabricating advanced research schematics within the Terralith Research Center. Due to the high value of proprietary data stored within this system, the printing unit operates under hard-coded, automated security containment.
+
+
+        [head=3]II. AUTOMATED SECURITY PROTOCOLS[/head]
+
+        The printer environment is continuously monitored by integrated defense sentries and drones programmed to enforce immediate lethal response protocols upon any breach. In any case of hull breach happened, the blast doors will be closed until it has been resolved.
+
+
+        [bullet] [b]Access Requirement:[/b] Entry into the Tech Disk Printer chamber requires an active, verified [color=blue]Solarian Directive[/color] credentials match or a valid [color=blue]Terralith ID[/color].
+
+        [bullet] [b]Threat Response:[/b] Sentry systems will instantly transition to [color=red]HOSTILE[/color] state if an unverified life sign or unregistered suit signature enters the scanning radius.
+
+        [bullet] [b]Targeting Parameters:[/b] Automatic target acquisition triggers without verbal warning or grace period.
+
+        [bullet] [b] In case of breach and atmospheric instability occur, the vault blastdoor will sealed until the air outside or inside the vault entry are deemed clear.
+
+
+        [head=3]III. PERSONNEL DIRECTIVES[/head]
+
+        [bullet] [b]Verify Identification:[/b] Always double-check that your Terralith ID is equipped and active before crossing the warning threshold.
+
+        [bullet] [b]Escort Protocol:[/b] Unregistered visiting researchers or contractors [color=yellow]MUST NOT[/color] approach the vault entry without an authorized Solarian Directive or Terralith handler present.
+
+        [bullet] [b]System Malfunctions:[/b] In the event of an IFF failure or false positive alert, retreat from line-of-sight immediately and contact Security.
+
+
+        [hr]
+
+        [align=center][color=#1c6bba][b]UNAUTHORIZED ACCESS WILL BE MET WITH IMMEDIATE LETHAL FORCE[/b][/color][/align]
+
+        [align=right][i]Issued by Terralith Security Division[/i][/align]
+  - uid: 6927
+    components:
+    - type: Transform
+      parent: 1
+      pos: 0.27003348,7.322318
+    - type: Paper
+      content: >2-
+
+        [head=1][color=#1c6bba]TERRALITH RESEARCH CENTER[/color][/head]
+
+
+        [head=2]EXCELLENCE IN INNOVATION — FACILITY WELCOME MEMORANDUM[/head]
+
+        [align=center][b]WELCOME TO YOUR NEW ASSIGNMENT[/b][/align]
+
+        [hr]
+
+        [align=center][i]"Building Tomorrow's Thresholds, Today."[/i][/align]
+
+
+        [bold][head=3]WELCOME PERSONNEL[/bold][/head]
+
+        On behalf of Executive Directorate and clearance of Solarian Directive, welcome to the [bold]Terralith Research Center[/bold]. You have been selected to serve at one of our most vital frontier research installations. The work conducted within these bulkheads defines the cutting edge of industrial, technological, and scientific progress.
+
+
+
+        [head=3]FACILITY PROTOCOLS & EXPECTATIONS[/head]
+
+
+        [bullet] [b]Display Credentials:[/b] Your clearance ID must remain visible at all times. Unauthorized access to restricted research sectors will result in immediate detention and security review.
+
+        [bullet] [b]Report Anomalies:[/b] Terralith thrives on precision. Any structural breaches, rogue automated behaviors, or unaccounted research material must be reported immediately to Department Leads.
+
+        [bullet] [b]Departmental Integrity:[/b] Scientific breakthrough using Data Miner Disk requires absolute discipline. Adhere strictly to hazardous containment guidelines and standard operating procedures.
+
+        [bullet] [b]Corporate Loyalty:[/b] Remember that all research materials, data logs, and technological assets produced on site remain the exclusive property of the organization.
+
+
+
+        [head=3]DEPARTMENT LOCATIONS[/head]
+
+
+        [bullet] Autonomous Drone docking bay
+
+        [bullet] Corporate Conference
+
+        [bullet] Living Quarters
+
+        [bullet] Data Vault
+
+        [bullet] Nuclear Engine Room
+
+        [bullet] Security
+
+        [bullet] Medical
+
+        [bullet] Corporate Bar
+
+
+
+        [hr]
+
+        [align=center][color=#1c6bba][b]TERRALITH RESEARCH CENTER — ADVANCING HUMANITY'S REACH[/b][/color][/align]
+
+        [align=right][i]Form TRC-W01 // Internal Distribution Only[/i][/align]
+    - type: UserInterface
+    - type: ActiveUserInterface
+  - uid: 6928
+    components:
+    - type: Transform
+      parent: 1
+      pos: 2.396182,28.54986
+  - uid: 6949
+    components:
+    - type: Transform
+      parent: 1
+      pos: 9.374203,15.567237
+    - type: Paper
+      content: >-
+        This is just a list of check for you to understand
+
+
+        - RTG are the backup power for engineering and the docking area, keep it maintained
+
+        - Plasma rods are only for emergency if the drones hasn't deliver any of the materials required
+
+        - [bold] ALWAYS KEEP THE REACTOR RUNNING, THE TECH DISK MAIN POWER CONNECTED DIRECTLY FROM THE NUCLEAR GRID
+    - type: UserInterface
+    - type: ActiveUserInterface
+  - uid: 6969
+    components:
+    - type: Transform
+      parent: 1
+      pos: 24.452322,-0.6229258
+    - type: Paper
+      content: >2-
+
+        [head=1][color=#1c6bba]TERRALITH RESEARCH CENTER[/color][/head]
+
+
+        [head=2][color=red]SYSTEM-WIDE DEFENSE & EVACUATION ORDER[/color][/head]
+
+
+        [align=center][b]COMMUNICATION LOG — SOLARIEN COMMAND RELAY[/b][/align]
+
+        [hr]
+
+
+        [b]DATE/TIME:[/b] [color=gray]TIMESTAMP REDACTED[/color]
+
+        [b]SYSTEM THEATER:[/b] Outer Rim — Solarian Directive Patrol Grid
+
+        [b]CHANNEL:[/b] Encrypted Fleet-to-Station Relay [b][PRIORITY ALPHA][/b]
+
+        [b]PARTICIPANTS:[/b]
+
+        [bullet] [b]Station Dir. Vance:[/b] Dr. Arthur Vance (Terralith Director Lead)
+
+        [bullet] [b]Rear Adm. Kross:[/b] Commander Elena Kross (Admiral of Solarian Directive Zulu Fleet)
+
+
+        [head=3]LOG TRANSCRIPT[/head]
+
+
+        [b]<00:01> [color=#1c6bba]Dir. Vance:[/color][/b] Admiral Kross, long-range telemetry is showing massive drive flare signatures entering the system. The local defense grid is lighting up like a Christmas tree. What is the status of the outer system perimeter?
+
+
+        [b]<00:10> [color=#ff4444]Rear Adm. Kross:[/color][/b] The frontline in the outer belt has completely collapsed, Director. The Civilian Defense Force has mobilized a system-wide offensive. Their war fleets are pushing through the planetary threshold and closing in on your sector rapidly.
+
+
+        [b]<00:22> [color=#1c6bba]Dir. Vance:[/color][/b] A war fleet?! They're an insurgent faction! How do rebels have enough naval tonnage to push back Solarian Directive battlecruisers? W-What about the Directive's automated fleet networks? you do have have full combat drone swarms deployed across the outer relay stations!
+
+
+        [b]<00:33> [color=#ff4444]Rear Adm. Kross:[/color][/b] We are currently rerouting every available combat drone unit in the system to set up a delaying screen in deep space. But make no mistake when i say this. Those drones are only meant to buy time, not win this engagement. Those bastard rather die to blow your facility after what we did to their chain of command. Solarian Command has declared the system [color=red]UNSAFE[/color] and issued a total evacuation order for your facility, director.
+
+
+        [b]<00:45> [color=#1c6bba]Dir. Vance:[/color][/b] WHAT?!! We can't just abandon the installation! The Tech Disk Printer is halfway through fabricating Classified Research Package Alpha! If we cut power now, the data matrices will corrupt! We need time for a controlled shutdown before we evacuate!
+
+
+        [b]<00:56> [color=#ff4444]Rear Adm. Kross:[/color][/b] You don't have time for a controlled shutdown, Director! The space-bound drones will hold the CDF's vanguard for maybe thirty minutes before their fleet overwhelms the perimeter. When those drone hulls burn out, you will have CDF boarding gunships sitting right outside your airlocks.
+
+
+        [b]<01:08> [color=#1c6bba]Dir. Vance:[/color][/b] Do you have any idea how much capital was poured into this facility?! The Solarian Directive board members and private stakeholders treated this station as their premier technological wonder! If we abandon this facility to be destroyed or looted by insurgents, those investors will have my head!
+
+
+        [b]<01:19> [color=#ff4444]Rear Adm. Kross:[/color][/b] Then it's your damn fucking job to make sure none of them able to be taken! Go grab your resource collector drones, strap them to the hull, and turn off the anchor. Set their destination to [Data redacted] and i will make the drones that come across your facility redirect to it and defend it.
+
+
+        [b]<01:31> [color=#1c6bba]Dir. Vance:[/color][/b] Are you out of your mind?! If we sever the main anchor and use jury-rigged resource drones as thrust, it'll be drifting blind without any form of navigation! A single rogue meteor or stray interstellar mass could tear the hull wide open! I cannot risk the Tech Disk Printer being smashed to pieces by a random space rock!
+
+
+        [b]<01:42> [color=#ff4444]Rear Adm. Kross:[/color][/b] I would rather see this facility atomized by an asteroid and lost in the deep black forever than let the insurgents rip out our data cores. If the CDF gets their hands on what's inside that printer, they'll have the blueprints to match our fleet capability in months.
+
+
+        [b]<01:51> [color=#1c6bba]Dir. Vance:[/color][/b] You're condemning billions credits worth of research to the void...
+
+
+        [b]<01:58> [color=#ff4444]Rear Adm. Kross:[/color][/b] I am ensuring the survival of the Solarian Directive Jupiter, Director. As you said with your head, my head are also on the table if i did not evacuate you or deny the enemy access to the facility. Sound the evacuation alarms, Director. Unmoor the station and kick the thrusters, or I will order my own ships to torpedo your facility to fulfill my mission. Your chocie, Kross out.
+
+
+        [b]<02:07> [color=#1c6bba]Dir. Vance:[/color][/b] [i][heavy sigh][/i] ...Understood. Disengaging station tethers and overriding resource drone nav-computers now. God save us all.
+
+
+        [color=red][b]-- END TRANSMISSION TRANSCRIPT --[/b][/color]
+
+        Logged by System Telemetry Network // Ref: TRC-SYS-EVAC-09
 - proto: PlasmaReactorFuelRod
   entities:
   - uid: 5757
@@ -31891,6 +32233,91 @@ entities:
     - type: Transform
       parent: 1
       pos: 29.5,31.5
+  - uid: 6950
+    components:
+    - type: Transform
+      parent: 1
+      pos: 32.5,-7.5
+  - uid: 6951
+    components:
+    - type: Transform
+      parent: 1
+      pos: 33.5,-7.5
+  - uid: 6952
+    components:
+    - type: Transform
+      parent: 1
+      pos: 35.5,-6.5
+  - uid: 6953
+    components:
+    - type: Transform
+      parent: 1
+      pos: 35.5,-7.5
+  - uid: 6954
+    components:
+    - type: Transform
+      parent: 1
+      pos: 36.5,-7.5
+  - uid: 6955
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,-6.5
+  - uid: 6956
+    components:
+    - type: Transform
+      parent: 1
+      pos: 38.5,-7.5
+  - uid: 6957
+    components:
+    - type: Transform
+      parent: 1
+      pos: 40.5,-7.5
+  - uid: 6958
+    components:
+    - type: Transform
+      parent: 1
+      pos: 37.5,-6.5
+  - uid: 6959
+    components:
+    - type: Transform
+      parent: 1
+      pos: 39.5,-7.5
+  - uid: 6960
+    components:
+    - type: Transform
+      parent: 1
+      pos: 40.5,-5.5
+  - uid: 6961
+    components:
+    - type: Transform
+      parent: 1
+      pos: 39.5,-6.5
+  - uid: 6962
+    components:
+    - type: Transform
+      parent: 1
+      pos: 34.5,-5.5
+  - uid: 6963
+    components:
+    - type: Transform
+      parent: 1
+      pos: 34.5,-6.5
+  - uid: 6964
+    components:
+    - type: Transform
+      parent: 1
+      pos: 33.5,-6.5
+  - uid: 6965
+    components:
+    - type: Transform
+      parent: 1
+      pos: 36.5,-5.5
+  - uid: 6966
+    components:
+    - type: Transform
+      parent: 1
+      pos: 36.5,-6.5
 - proto: SalvageSpawnerScrapValuable
   entities:
   - uid: 6740
@@ -33128,16 +33555,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 47.5,2.5
-  - uid: 4427
-    components:
-    - type: Transform
-      parent: 1
-      pos: 47.5,1.5
-  - uid: 4454
-    components:
-    - type: Transform
-      parent: 1
-      pos: 47.5,11.5
   - uid: 4455
     components:
     - type: Transform
@@ -33158,8 +33575,28 @@ entities:
     - type: Transform
       parent: 1
       pos: 48.5,8.5
+  - uid: 6923
+    components:
+    - type: Transform
+      parent: 1
+      pos: 37.5,7.5
+  - uid: 6924
+    components:
+    - type: Transform
+      parent: 1
+      pos: 37.5,5.5
 - proto: SpawnMobSolarianSiliconAssaultCyborgTenChance
   entities:
+  - uid: 4427
+    components:
+    - type: Transform
+      parent: 1
+      pos: 28.5,-0.5
+  - uid: 4454
+    components:
+    - type: Transform
+      parent: 1
+      pos: 14.5,11.5
   - uid: 6638
     components:
     - type: Transform
@@ -33190,6 +33627,16 @@ entities:
     - type: Transform
       parent: 1
       pos: 35.5,3.5
+  - uid: 6925
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,16.5
+  - uid: 6926
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,6.5
 - proto: SpawnMobSolarianSiliconDrone
   entities:
   - uid: 6249
@@ -33589,6 +34036,54 @@ entities:
     - type: Transform
       parent: 1
       pos: 18.5,10.5
+- proto: StationMap
+  entities:
+  - uid: 6942
+    components:
+    - type: Transform
+      parent: 1
+      pos: -13.5,-20.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+  - uid: 6943
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 3.5,16.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+  - uid: 6944
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 31.5,35.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+  - uid: 6945
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 17.5,-2.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+- proto: StationMapBroken
+  entities:
+  - uid: 6941
+    components:
+    - type: Transform
+      parent: 1
+      pos: -14.5,8.5
 - proto: SteelBench
   entities:
   - uid: 5586
@@ -34043,6 +34538,22 @@ entities:
     - type: Transform
       parent: 1
       pos: 31.5,17.5
+  - uid: 6922
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 31.5,-0.5
+  - uid: 6948
+    components:
+    - type: Transform
+      parent: 1
+      pos: 9.5,15.5
+  - uid: 6967
+    components:
+    - type: Transform
+      parent: 1
+      pos: 24.5,-0.5
 - proto: TableCarpet
   entities:
   - uid: 2920

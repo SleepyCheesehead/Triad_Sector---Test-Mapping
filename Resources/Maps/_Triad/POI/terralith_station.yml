@@ -4,8 +4,8 @@ meta:
   engineVersion: 289.0.2
   forkId: ""
   forkVersion: ""
-  time: 10/07/2026 13:35:29
-  entityCount: 7021
+  time: 10/08/2026 03:53:08
+  entityCount: 7037
 maps: []
 grids:
 - 1
@@ -233,9 +233,9 @@ entities:
     - type: SpreaderGrid
       spreadQueues:
         MetalFoam: []
+        Puddle: []
         Kudzu: []
         Smoke: []
-        Puddle: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -4219,111 +4219,151 @@ entities:
   entities:
   - uid: 121
     components:
+    - type: MetaData
+      name: APC (Mess Hall)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 38.5,17.5
   - uid: 122
     components:
+    - type: MetaData
+      name: APC (Vault Power B)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 44.5,0.5
   - uid: 123
     components:
+    - type: MetaData
+      name: APC (Main Security)
     - type: Transform
       parent: 1
       pos: 38.5,-4.5
   - uid: 124
     components:
+    - type: MetaData
+      name: APC (Bridge)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 30.5,-2.5
   - uid: 125
     components:
+    - type: MetaData
+      name: APC (Entrance - Main Hallway)
     - type: Transform
       parent: 1
       pos: -2.5,37.5
   - uid: 126
     components:
+    - type: MetaData
+      name: APC (Dock B)
     - type: Transform
       parent: 1
       pos: -11.5,-20.5
   - uid: 127
     components:
+    - type: MetaData
+      name: APC (Receptionist)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 4.5,6.5
   - uid: 128
     components:
+    - type: MetaData
+      name: APC (Dock A)
     - type: Transform
       parent: 1
       pos: -11.5,8.5
   - uid: 129
     components:
+    - type: MetaData
+      name: APC (Reactor)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 14.5,9.5
   - uid: 130
     components:
+    - type: MetaData
+      name: APC (Conference)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 34.5,32.5
   - uid: 131
     components:
+    - type: MetaData
+      name: APC (Robotic Security)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -1.5,30.5
   - uid: 132
     components:
+    - type: MetaData
+      name: APC (Shield B)
     - type: Transform
       parent: 1
       pos: 21.5,19.5
   - uid: 133
     components:
+    - type: MetaData
+      name: APC (Shield A)
     - type: Transform
       parent: 1
       pos: 19.5,19.5
   - uid: 134
     components:
+    - type: MetaData
+      name: APC (Atmosphere)
     - type: Transform
       parent: 1
       pos: 15.5,-2.5
   - uid: 135
     components:
+    - type: MetaData
+      name: APC (Grav - Anchor)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 20.5,8.5
   - uid: 136
     components:
+    - type: MetaData
+      name: APC (Security Checkpoint)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: -4.5,14.5
   - uid: 137
     components:
+    - type: MetaData
+      name: APC (Secondary Data Vault)
     - type: Transform
       parent: 1
       pos: 8.5,-15.5
   - uid: 138
     components:
+    - type: MetaData
+      name: APC (Main Hallway - Conference)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 31.5,28.5
   - uid: 139
     components:
+    - type: MetaData
+      name: APC (Bar)
     - type: Transform
       parent: 1
       pos: 23.5,-13.5
   - uid: 140
     components:
+    - type: MetaData
+      name: APC (Hallway - Bridge)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
@@ -4336,28 +4376,38 @@ entities:
       pos: 43.5,-8.5
   - uid: 142
     components:
+    - type: MetaData
+      name: APC (Dorm)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 18.5,24.5
   - uid: 143
     components:
+    - type: MetaData
+      name: APC (Turbine)
     - type: Transform
       parent: 1
       pos: 10.5,16.5
   - uid: 144
     components:
+    - type: MetaData
+      name: APC (Vault Power A)
     - type: Transform
       parent: 1
       pos: 44.5,12.5
   - uid: 145
     components:
+    - type: MetaData
+      name: APC (Main Hallway - Bar)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 27.5,-11.5
   - uid: 146
     components:
+    - type: MetaData
+      name: APC (Dock B Hallway)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
@@ -13398,12 +13448,12 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: 27.5,11.5
+      pos: 26.5,12.5
   - uid: 1914
     components:
     - type: Transform
       parent: 1
-      pos: 28.5,11.5
+      pos: 27.5,12.5
   - uid: 1915
     components:
     - type: Transform
@@ -14038,12 +14088,12 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: 29.5,11.5
+      pos: 28.5,12.5
   - uid: 2043
     components:
     - type: Transform
       parent: 1
-      pos: 30.5,11.5
+      pos: 29.5,12.5
   - uid: 2044
     components:
     - type: Transform
@@ -14174,6 +14224,31 @@ entities:
     - type: Transform
       parent: 1
       pos: 34.5,9.5
+  - uid: 7031
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,19.5
+  - uid: 7032
+    components:
+    - type: Transform
+      parent: 1
+      pos: 29.5,19.5
+  - uid: 7033
+    components:
+    - type: Transform
+      parent: 1
+      pos: 29.5,18.5
+  - uid: 7034
+    components:
+    - type: Transform
+      parent: 1
+      pos: 29.5,17.5
+  - uid: 7035
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,12.5
 - proto: CableApcStack10
   entities:
   - uid: 7005
@@ -16248,6 +16323,26 @@ entities:
     - type: Transform
       parent: 1
       pos: -2.5,27.5
+  - uid: 7023
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,22.5
+  - uid: 7024
+    components:
+    - type: Transform
+      parent: 1
+      pos: 31.5,22.5
+  - uid: 7025
+    components:
+    - type: Transform
+      parent: 1
+      pos: 32.5,22.5
+  - uid: 7026
+    components:
+    - type: Transform
+      parent: 1
+      pos: 32.5,23.5
 - proto: CableMV
   entities:
   - uid: 2476
@@ -17910,6 +18005,26 @@ entities:
     - type: Transform
       parent: 1
       pos: 44.5,0.5
+  - uid: 7027
+    components:
+    - type: Transform
+      parent: 1
+      pos: 30.5,22.5
+  - uid: 7028
+    components:
+    - type: Transform
+      parent: 1
+      pos: 31.5,22.5
+  - uid: 7029
+    components:
+    - type: Transform
+      parent: 1
+      pos: 32.5,22.5
+  - uid: 7030
+    components:
+    - type: Transform
+      parent: 1
+      pos: 32.5,23.5
 - proto: CableTerminal
   entities:
   - uid: 2809
@@ -18485,6 +18600,11 @@ entities:
           ent: null
           showEnts: False
           occludes: True
+  - uid: 7036
+    components:
+    - type: Transform
+      parent: 1
+      pos: 46.5,-7.5
 - proto: CryoPodDestroyed
   entities:
   - uid: 2881
@@ -26941,6 +27061,8 @@ entities:
   entities:
   - uid: 4077
     components:
+    - type: MetaData
+      desc: Inlet pressure regulator (Emergency Flush)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -32815,6 +32937,11 @@ entities:
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 23.70015,16.366394
+  - uid: 7037
+    components:
+    - type: Transform
+      parent: 1
+      pos: 10.06178,12.392346
 - proto: SheetGlass10
   entities:
   - uid: 7000
@@ -34653,11 +34780,15 @@ entities:
   entities:
   - uid: 5213
     components:
+    - type: MetaData
+      name: Substation (Vault Power)
     - type: Transform
       parent: 1
       pos: 42.5,-1.5
   - uid: 5214
     components:
+    - type: MetaData
+      name: Wallmount substation (Backup Power)
     - type: Transform
       parent: 1
       pos: 11.5,17.5
@@ -34665,21 +34796,29 @@ entities:
   entities:
   - uid: 5215
     components:
+    - type: MetaData
+      name: Substation (Security)
     - type: Transform
       parent: 1
       pos: 46.5,-5.5
   - uid: 5216
     components:
+    - type: MetaData
+      name: Wallmount substation (Shield Energy Bank)
     - type: Transform
       parent: 1
       pos: 17.5,19.5
   - uid: 5217
     components:
+    - type: MetaData
+      name: Wallmount substation (Engineering)
     - type: Transform
       parent: 1
       pos: 23.5,19.5
   - uid: 5218
     components:
+    - type: MetaData
+      name: Substation (Bridge)
     - type: Transform
       parent: 1
       pos: 23.5,-3.5
@@ -34687,27 +34826,42 @@ entities:
   entities:
   - uid: 5219
     components:
+    - type: MetaData
+      name: Wallmount substation (Receptionist)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 4.5,8.5
   - uid: 5220
     components:
+    - type: MetaData
+      name: Wallmount substation (Robotic Security)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 3.5,30.5
   - uid: 5221
     components:
+    - type: MetaData
+      name: Wallmount substation (Secondary Data Vault)
     - type: Transform
       parent: 1
       pos: 7.5,-15.5
   - uid: 5222
     components:
+    - type: MetaData
+      name: Wallmount substation (Atmosphere)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 17.5,-4.5
+  - uid: 7022
+    components:
+    - type: MetaData
+      name: Wallmount substation (Mess Hall)
+    - type: Transform
+      parent: 1
+      pos: 32.5,23.5
 - proto: SurveillanceCameraRouterSecurity
   entities:
   - uid: 5223

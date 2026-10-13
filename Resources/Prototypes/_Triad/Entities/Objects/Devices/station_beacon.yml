@@ -100,5 +100,5 @@
   suffix: Freezer
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-Freezer
+    defaultText: station-beacon-freezer
     color: "#9fed58ff"

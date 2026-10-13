@@ -9,3 +9,4 @@ station-beacon-nuclear-reactor = Nuclear Reactor
 station-beacon-receptionist = Receptionist
 station-beacon-vault-checkpoint = Vault Checkpoint
 station-beacon-salvage-drone-bay = Salvage Drone Bay
+station-beacon-freezer = Freezer
